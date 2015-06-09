@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/udacity_background"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="24sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="@string/app_title"
+        android:textSize="18sp"
+        android:id="@+id/app_title"
+        android:textColor="#131642" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/udacity_yellow_button"
+        android:padding="5sp"
+        android:layout_margin="10sp"
+        android:text="@string/app_streamer"
+        android:layout_below="@+id/app_title"
+        android:id="@+id/button_streamer"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/udacity_yellow_button"
+        android:padding="5sp"
+        android:layout_margin="10sp"
+        android:text="@string/app_football_score"
+        android:layout_below="@+id/button_streamer"
+        android:id="@+id/button_football_score"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/udacity_yellow_button"
+        android:padding="5sp"
+        android:layout_margin="10sp"
+        android:text="@string/app_library"
+        android:layout_below="@+id/button_football_score"
+        android:id="@+id/button_library"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/udacity_yellow_button"
+        android:padding="5sp"
+        android:layout_margin="10sp"
+        android:text="@string/app_build_it_bigger"
+        android:layout_below="@+id/button_library"
+        android:id="@+id/button_build_it_bigger"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/udacity_yellow_button"
+        android:padding="5sp"
+        android:layout_margin="10sp"
+        android:text="@string/app_xyz_reader"
+        android:layout_below="@+id/button_build_it_bigger"
+        android:id="@+id/button_xyz_reader"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/udacity_red_button"
+        android:padding="5sp"
+        android:layout_margin="10sp"
+        android:text="@string/app_capstone"
+        android:layout_below="@+id/button_xyz_reader"
+        android:id="@+id/button_capstone"
+        />
+</RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
